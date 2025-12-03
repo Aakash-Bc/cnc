@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CNC Consultant — Civil & IT</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="CNC Consultant" class="logo" />
+        <span class="brand-text">CNC Consultant</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="cta">Contact Us</a>
+      </nav>
+      <div class="dept-toggle-nav">
+        <button class="dept-btn" data-dept="all" title="All Services">All</button>
+        <button class="dept-btn" data-dept="civil" title="Civil Engineering">Civil</button>
+        <button class="dept-btn" data-dept="it" title="IT & Digital">IT</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Practical Engineering & Innovative IT Solutions</h1>
+        <p>We provide civil engineering consultancy and IT solutions tailored to construction and infrastructure projects.</p>
+        <p class="hero-cta"><a href="contact.html" class="btn">Get a Consultation</a></p>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <h2>Two departments, one mission</h2>
+        <p>Our Civil Department delivers design, inspection and project management. Our IT Department implements digital solutions — BIM integration, site monitoring, and software tools for construction productivity.</p>
+      </div>
+    </section>
+
+    <section class="department-toggle">
+      <div class="container">
+        <div class="toggle-buttons">
+          <button class="toggle-btn active" data-dept="all">All Services</button>
+          <button class="toggle-btn" data-dept="civil">Civil Engineering</button>
+          <button class="toggle-btn" data-dept="it">IT & Digital</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <div class="container">
+        <div class="cards" id="servicesCards">
+          <article class="card" data-dept="civil">
+            <h3>Civil Engineering</h3>
+            <p>Structural design, site assessment, project supervision, and compliance services for residential and commercial projects.</p>
+            <a href="services.html#civil" class="link">Explore Civil Services →</a>
+          </article>
+
+          <article class="card" data-dept="it">
+            <h3>IT & Digital</h3>
+            <p>BIM consulting, construction software integration, site IoT/sensor systems, and custom tools to improve project delivery.</p>
+            <a href="services.html#it" class="link">Explore IT Services →</a>
+          </article>
+
+          <article class="card" data-dept="all">
+            <h3>Integrated Solutions</h3>
+            <p>We combine civil knowledge with IT capabilities to deliver smart, cost-effective engineering outcomes.</p>
+            <a href="contact.html" class="link">Talk to an Expert →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-contact">
+      <div class="container">
+        <h2>Ready to talk?</h2>
+        <p>Send us a brief message and we'll propose the next steps.</p>
+        <a href="contact.html" class="btn">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> CNC Consultant — Civil & IT</div>
+      <div class="small-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services — CNC Consultant</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="CNC Consultant" class="logo" />
+        <span class="brand-text">CNC Consultant</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="cta">Contact Us</a>
+      </nav>
+      <div class="dept-toggle-nav">
+        <button class="dept-btn" data-dept="all" title="All Services">All</button>
+        <button class="dept-btn" data-dept="civil" title="Civil Engineering">Civil</button>
+        <button class="dept-btn" data-dept="it" title="IT & Digital">IT</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="page-header">
+      <div class="container">
+        <h1>Services</h1>
+        <p class="lead">Comprehensive civil engineering and IT solutions for construction projects.</p>
+      </div>
+    </section>
+
+    <section class="page-section" id="civil" data-dept-section="civil">
+      <div class="container">
+        <h2>Civil Engineering</h2>
+        <ul class="feature-list">
+          <li>Structural design & analysis</li>
+          <li>Site surveys & geotechnical coordination</li>
+          <li>Construction supervision & QA/QC</li>
+          <li>Permitting & regulatory compliance</li>
+          <li>Cost estimating and scheduling</li>
+        </ul>
+        <p>We design with constructability in mind and support projects through to completion.</p>
+      </div>
+    </section>
+
+    <section class="page-section alt-bg" id="it" data-dept-section="it">
+      <div class="container">
+        <h2>IT & Digital Services</h2>
+        <ul class="feature-list">
+          <li>BIM strategy, implementation and training</li>
+          <li>Construction management software integration</li>
+          <li>Site IoT, sensors and real-time monitoring</li>
+          <li>Custom dashboards, data analytics and reporting</li>
+          <li>Mobile apps for site data capture</li>
+        </ul>
+        <p>We help teams adopt digital tools that reduce rework and improve transparency.</p>
+      </div>
+    </section>
+
+    <section class="page-section" id="integration">
+      <div class="container">
+        <h2>Integrated Projects</h2>
+        <p>We combine civil and digital services for projects that require both technical engineering and systems integration — for example, digital twin creation, sensor-driven inspection programs, and automated reporting for compliance.</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <a href="contact.html" class="btn">Request a Proposal</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">© <span id="year"></span> CNC Consultant</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

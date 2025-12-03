@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us — CNC Consultant</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="CNC Consultant" class="logo" />
+        <span class="brand-text">CNC Consultant</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="cta">Contact Us</a>
+      </nav>
+      <div class="dept-toggle-nav">
+        <button class="dept-btn" data-dept="all" title="All Services">All</button>
+        <button class="dept-btn" data-dept="civil" title="Civil Engineering">Civil</button>
+        <button class="dept-btn" data-dept="it" title="IT & Digital">IT</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="lead">For inquiries, proposals or partnership requests, use the form below or email us at <a href="mailto:info@cnc-consultant.example">info@cnc-consultant.example</a>.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Your full name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="your@email.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone (Optional)</label>
+            <input id="phone" name="phone" type="tel" placeholder="+1 (555) 000-0000" />
+          </div>
+
+          <div class="form-group">
+            <label for="department">Department of Interest</label>
+            <select id="department" name="department">
+              <option value="">Select a department</option>
+              <option value="civil">Civil Engineering</option>
+              <option value="it">IT & Digital</option>
+              <option value="general">General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="8" required placeholder="Tell us about your project or inquiry..."></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <section class="contact-details">
+          <h2>Get in Touch</h2>
+          <div class="contact-info">
+            <div class="info-item">
+              <h3>Address</h3>
+              <p>123 Engineering Rd, City<br />Country 12345</p>
+            </div>
+            <div class="info-item">
+              <h3>Phone</h3>
+              <p><a href="tel:+15550100">+1 (555) 0100</a></p>
+            </div>
+            <div class="info-item">
+              <h3>Email</h3>
+              <p><a href="mailto:info@cnc-consultant.example">info@cnc-consultant.example</a></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">© <span id="year"></span> CNC Consultant</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
